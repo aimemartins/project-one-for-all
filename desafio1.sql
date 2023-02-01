@@ -12,7 +12,7 @@ CREATE TABLE
     SpotifyClone.plano(
         plano_id INT PRIMARY KEY AUTO_INCREMENT,
         plano_nome VARCHAR(100) NOT NULL,
-        plano_valor DOUBLE
+        plano_valor DECIMAL(4, 2)
     );
 
 CREATE TABLE
